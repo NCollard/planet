@@ -70,14 +70,14 @@
 
 
         //planet
-        const planetGeometry = new THREE.SphereGeometry(1, 20, 20)
+        const planetGeometry = new THREE.SphereGeometry(1, 30, 30)
         const sphereMaterial = new THREE.MeshNormalMaterial()
 
         const planet = new THREE.Mesh(planetGeometry, sphereMaterial)
         scene.add(planet)
 
         //ring
-        const torus = new THREE.TorusGeometry(2, 0.5, 2, 50);
+        const torus = new THREE.TorusGeometry(2, 0.5, 2, 75);
         const ringMaterial = new THREE.MeshNormalMaterial()
 
         const ring = new THREE.Mesh(torus, ringMaterial)
